@@ -1,0 +1,79 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #f0f0f0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    overflow-x: hidden;
+}
+
+header.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(145deg, rgba(0, 162, 255, 0.8), rgba(0, 255, 157, 0.6));
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    animation: gradient-animate 6s infinite alternate ease-in-out;
+}
+
+.title {
+    font-size: 2.8rem;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+section.innovation {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.innovation:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 255, 157, 0.5);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+@keyframes gradient-animate {
+    0% {
+        background: linear-gradient(145deg, rgba(0, 162, 255, 0.8), rgba(0, 255, 157, 0.6));
+    }
+    100% {
+        background: linear-gradient(145deg, rgba(0, 162, 255, 0.6), rgba(255, 87, 51, 0.7));
+    }
+}
