@@ -77,8 +77,3 @@ footer {
         background: linear-gradient(145deg, rgba(0, 162, 255, 0.6), rgba(255, 87, 51, 0.7));
     }
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
