@@ -32,7 +32,9 @@ header.hero {
     opacity: 0.9;
 }
 
-section.innovation {
+section.about,
+section.innovation,
+section.timeline {
     margin: 30px auto;
     padding: 20px;
     width: 80%;
@@ -44,24 +46,49 @@ section.innovation {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-section.innovation:hover {
+section.innovation:hover,
+section.timeline:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 30px rgba(0, 255, 157, 0.5);
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
 }
 
-p {
+p,
+ul {
     font-size: 1rem;
     line-height: 1.6;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li strong {
+    color: #00ffa3;
+}
+
+a {
+    color: #00ffa3;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #1f8fff;
+}
+
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     background: rgba(0, 0, 0, 0.7);
     border-top: 2px solid rgba(255, 255, 255, 0.1);
     margin-top: 20px;
