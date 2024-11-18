@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovace Windows</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1 class="title">Inovace Windows</h1>
+        <p class="subtitle">Tvoříme budoucnost, jednu aktualizaci za druhou.</p>
+    </header>
+    <main>
+        <section class="innovation">
+            <h2>🌟 Windows Aero (2006)</h2>
+            <p>Představené průhledné, skleněné okna pro revoluční uživatelské rozhraní.</p>
+        </section>
+        <section class="innovation">
+            <h2>📶 Virtuální plochy (2015)</h2>
+            <p>Podpora produktivity umožněním více desktopových nastavení bez námahy.</p>
+        </section>
+        <section class="innovation">
+            <h2>🤖 Cortana AI asistentka (2014)</h2>
+            <p>Váš osobní digitální asistent, který se učí a přizpůsobuje vám.</p>
+        </section>
+        <section class="innovation">
+            <h2>🔒 Windows Hello (2015)</h2>
+            <p>Revoluční přihlášení pomocí biometrie – bezpečnost a pohodlí v jednom.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Centrum inovací</p>
+    </footer>
+</body>
+</html>
